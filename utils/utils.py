@@ -6,7 +6,7 @@ import logging
 from torch.autograd import Variable
 from torchvision.utils import save_image, make_grid
 from data.dataloader import full_path_loader, full_test_loader, Loader
-from model.utgan import DTGAN, Discriminator
+from model.dtgan import DTGAN, Discriminator
 from model.discriminator import MsImageDiscriminator
 
 
